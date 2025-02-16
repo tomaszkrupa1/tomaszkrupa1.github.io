@@ -1,3 +1,9 @@
+import Link from 'next/link';
+
+export async function generateStaticParams() {
+    return [{ id: '1' }, { id: '2' }, { id: '3' }, { id: '4' }];
+  }
+
 export default function CodePage() {
     const projects = [
         {
@@ -40,16 +46,18 @@ export default function CodePage() {
                         className="grid grid-cols-1 sm:grid-cols-2 gap-4 items-stretch"
                     >
                         <div className="overflow-hidden rounded">
-                            <a href={`/project/${project.id}`}>
+                            <Link href={`/project/${project.id}`}>
                                 <img
                                     src={project.imageSrc}
                                     alt={project.title}
                                     className="w-full h-full object-cover"
                                 />
-                            </a>
+                            </Link>
                         </div>
                         <div className="flex flex-col justify-end">
-                            <h2 className="text-xl font-semibold text-black">{project.title}</h2>
+                            <h2 className="text-xl font-semibold md:text-2xl md:font-bold text-black">
+                                {project.title}
+                            </h2>
                             <p className="text-gray-700 mt-2">{project.info}</p>
                             <div className="flex flex-wrap mt-2">
                                 {project.tags.map((tag) => (
