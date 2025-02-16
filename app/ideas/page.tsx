@@ -1,4 +1,4 @@
-export default function CodePage() {
+export default function IdeasPage() {
     const projects = [
         {
             id: 1,
@@ -32,7 +32,7 @@ export default function CodePage() {
 
     return (
         <div className="container mx-auto p-8">
-            <h1 className="text-3xl font-bold mb-8 text-black">Coding Projects</h1>
+            <h1 className="text-3xl font-bold mb-8 text-black">Ideas</h1>
             <div className="space-y-6">
                 {projects.map((project) => (
                     <div
