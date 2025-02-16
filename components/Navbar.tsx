@@ -1,5 +1,6 @@
 'use client'
 import React, { useState, useEffect } from 'react'
+import Link from 'next/link'
 import { Poppins } from 'next/font/google'
 
 const poppins = Poppins({ subsets: ['latin'], weight: ['800'] })
@@ -30,7 +31,9 @@ const Navbar = () => {
 
     return (
         <nav className={navClasses}>
-            <span className={headerClasses}>KRUPA</span>
+            <Link href="/">
+                <span className={headerClasses}>KRUPA®</span>
+            </Link>
         </nav>
     )
 }
