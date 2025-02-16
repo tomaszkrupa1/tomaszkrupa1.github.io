@@ -62,10 +62,48 @@ export default function DancePage() {
                         allowFullScreen
                     ></iframe>
                 </div>
+                <div className="aspect-video">
+                    <iframe
+                        className="w-full h-full"
+                        src="https://www.youtube.com/embed/R9J-ih4LoW8?si=r8-MHuDQx1HMNw31" 
+                        title="YouTube video player 5"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                    ></iframe>
+                </div>
+                <div className="aspect-video">
+                    <iframe
+                        className="w-full h-full"
+                        src="https://www.youtube.com/embed/AAbZU8rAFsE?si=8ezBViowmow_ynhx" 
+                        title="YouTube video player 5"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                    ></iframe>
+                </div>
+                <div className="aspect-video">
+                    <iframe
+                        className="w-full h-full"
+                        src="https://www.youtube.com/embed/KqtH3SvTWQg?si=nfMAuEq45GuEnrc9" 
+                        title="YouTube video player 5"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                    ></iframe>
+                </div>
+                <div className="aspect-video">
+                    <iframe
+                        className="w-full h-full"
+                        src="https://www.youtube.com/embed/JNX1UuHOUyI?si=Eru7Oxmb_zXHwyfm" 
+                        title="YouTube video player 5"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                    ></iframe>
+                </div>
             </div>
         </div>
     );
 }
-
-
 

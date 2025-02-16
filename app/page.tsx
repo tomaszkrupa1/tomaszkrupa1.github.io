@@ -1,13 +1,8 @@
-'use client'
-
 import Link from 'next/link';
-import { useState } from 'react';
 
 
 
-export default function Home() {
-  const [active, setActive] = useState<boolean>(false);
-  
+export default function Home() {  
   
   return (
     <div className="container mx-auto p-8 max-[631px]:p-4">
@@ -52,19 +47,7 @@ export default function Home() {
       <h2 className="mt-16 mb-16 py-16 text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800 md:max-w-[50%] ml-auto text-right">
         I currently work for Fujitsu in a 1st line support role. I also do freelance design and development under iridesceDIgital. Additionally, I am working on a new startup, an online designer clothing marketplace, HIGHSTREET.
       </h2>
-     
-      <button
-        onClick={() => setActive((prev) => !prev)}
-        className={`fixed bottom-4 left-4 w-12 h-12 rounded-full flex items-center justify-center transition-colors duration-300 ${
-          active ? 'bg-white' : 'bg-black'
-        }`}
-      >
-        {active ? (
-          <img src="/light_mode.svg" alt="Light Mode" className="w-6 h-6" />
-        ) : (
-          <img src="/dark_mode.svg" alt="Dark Mode" className="w-6 h-6" />
-        )}
-      </button>
+  
     </div>
   );
 }
