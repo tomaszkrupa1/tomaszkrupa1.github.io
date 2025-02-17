@@ -37,12 +37,23 @@ export default function Home() {
       </div>
       <div>
         <img src="/images/1.jpg" alt="1" className="w-full h-auto mb-4" />
-        <h2 className="mt-16 mb-16 py-16 text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800 md:max-w-[50%]">
+        <h2 className="mt-16 mb-16 py-16 text-3xl sm:text-4xl md:text-5xl font-bold text-black md:max-w-[50%]">
           Hi, I'm Tomasz, a passionate developer with interests spanning code, art, and design. Welcome to my online space where creativity meets technology.
         </h2>
       </div>
-      <h2 className="mt-16 mb-16 py-16 text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800 md:max-w-[50%] ml-auto text-right">
-        I currently work for Fujitsu in a 1st line support role. I also do freelance design and development under iridesceDIgital. Additionally, I am working on a new startup, an online designer clothing marketplace, HIGHSTREET.
+      <h2 className="mt-16 mb-16 py-16 text-3xl sm:text-4xl md:text-5xl font-bold text-black md:max-w-[50%] ml-auto text-right">
+        I currently work for Fujitsu in a 1st line support role. I also do freelance design and development under <a href="https://iridesce.digital" className="underline">iridesceDIgital</a>. Additionally, I am working on a new startup, an online designer clothing marketplace, <a href="https://highstreetmarketplace.co.uk" className="underline">HIGHSTREET</a>.
+      </h2>
+      <h2 className="mt-16 mb-16 py-16 text-3xl sm:text-4xl md:text-5xl font-bold text-black md:max-w-[50%]">
+        <div>
+          <a href="mailto:hello@tomaszkrupa.co.uk" className="underline text-2xl sm:text-3xl md:text-4xl">hello@tomaszkrupa.co.uk</a>
+        </div>
+        <div>
+        <a href="/cv/Tomasz_Krupa_-_2025_CV.pdf" download="Tomasz_Krupa_-_2025_CV" className='underline text-2xl sm:text-3xl md:text-4xl'>CV</a>
+        </div>
+        <div>
+          <a href="https://www.linkedin.com/in/tomaszkrupa1999" className="underline text-2xl sm:text-3xl md:text-4xl">LinkedIn</a>
+        </div>
       </h2>
     </div>
   );
