@@ -164,7 +164,6 @@ body, h1, h2, h3, h4, h5, h6, p, span, a, li, div, button {
   @apply text-white;
 }
 
-/* Add dark mode background color for body and navbar */
 body {
   @apply bg-white transition-colors duration-300;
 }
@@ -193,7 +192,7 @@ nav {
 @layer utilities {
   .animate-fadeIn {
     animation: fadeIn 1s ease-in-out forwards;
-    opacity: 0; /* Ensure the element is initially hidden */
+    opacity: 0; 
   }
   .delay-1 {
     animation-delay: 0.15s;
