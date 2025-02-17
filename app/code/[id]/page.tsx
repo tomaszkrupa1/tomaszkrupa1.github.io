@@ -18,7 +18,7 @@ export async function generateStaticParams(): Promise<PageProps['params'][]> {
 }
 
 export default function ProjectPage({ params: { id } }: PageProps) {
-  const project = projects[id];
+  const project = projects[Number(id)];
 
   if (!project) {
     return (
@@ -44,7 +44,7 @@ export default function ProjectPage({ params: { id } }: PageProps) {
       </header>
       <main>
         <h1 className="text-3xl font-bold mb-4">{project.title}</h1>
-        <p className="mb-4">{project.description}</p>
+        <p className="mb-4">{project.info}</p>
         <div>
           <h2 className="text-2xl font-semibold">Project Details</h2>
           <p>{project.info}</p>

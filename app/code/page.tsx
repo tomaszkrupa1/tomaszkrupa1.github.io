@@ -21,7 +21,7 @@ export default function CodePage() {
               </Link>
             </div>
             <div className="flex flex-col justify-end">
-              <h2 className="text-xl font-semibold md:text-2xl md:font-bold text-black">
+              <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold md:font-bold text-black">
                 {project.title}
               </h2>
               <p className="text-gray-700 mt-2">{project.info}</p>

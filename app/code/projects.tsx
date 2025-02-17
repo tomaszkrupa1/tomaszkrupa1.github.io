@@ -30,7 +30,7 @@ export const projects: Project[] = [
         id: 2,
         title: "The Emperor",
         imageSrc: "/images/C1.png",
-        info: "A Chrome extension for enhancing your browsing experience.",
+        info: "A Chrome extension for enhancing your browsing experience. This is ome text that will force the window to get even bigger when in a pretty narrow view",
         info2: "Additional details and features of SocialLift go here.",
         tags: ["Chrome Extension", "HTML", "CSS", "JavaScript"],
     },
