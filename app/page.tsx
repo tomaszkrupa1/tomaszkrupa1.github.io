@@ -42,7 +42,7 @@ export default function Home() {
         </h2>
       </div>
       <h2 className="mt-16 mb-16 py-16 text-3xl sm:text-4xl md:text-5xl font-bold text-black md:max-w-[50%] ml-auto text-right">
-        I currently work for Fujitsu in a 1st line support role. I also do freelance design and development under <a href="https://iridesce.digital" className="underline">iridesceDIgital</a>. Additionally, I am working on a new startup, an online designer clothing marketplace, <a href="https://highstreetmarketplace.co.uk" className="underline">HIGHSTREET</a>.
+        I currently work for Fujitsu in a 1st line support role. I also do freelance design and development under <a href="https://iridesce.digital" className="underline">iridesceDigital</a>. Additionally, I am working on a new startup, an online designer clothing marketplace, <a href="https://highstreetmarketplace.co.uk" className="underline">HIGHSTREET</a>.
       </h2>
       <h2 className="mt-16 mb-16 py-16 text-3xl sm:text-4xl md:text-5xl font-bold text-black md:max-w-[50%]">
         <div>
