@@ -42,14 +42,14 @@ export default function Home() {
         </h2>
       </div>
       <h2 className="mt-16 mb-16 py-16 text-3xl sm:text-4xl md:text-5xl font-bold text-black md:max-w-[50%] ml-auto text-right">
-        I currently work for Fujitsu in a 1st line support role. I also do freelance design and development under <a href="https://iridesce.digital" className="underline">iridesceDigital</a>. Additionally, I am working on a new startup, an online designer clothing marketplace, <a href="https://highstreetmarketplace.com" className="underline">HIGHSTREET</a>.
+        I currently work for Fujitsu in a 1st line support role. I also do freelance design and development under <a href="https://iridesce.digital" className="underline" target="_blank" rel="noopener noreferrer">iridesceDigital</a>. Additionally, I am working on a new startup, an online designer clothing marketplace, <a href="https://highstreetmarketplace.com" className="underline" target="_blank" rel="noopener noreferrer">HIGHSTREET</a>.
       </h2>
       <h3 className="mt-16 mb-16 py-16 text-3xl sm:text-4xl md:text-5xl font-bold text-black md:max-w-[50%]">
         <div>
           <a href="mailto:hello@tomaszkrupa.co.uk" className="underline text-2xl sm:text-3xl md:text-4xl" target="_blank" rel="noopener noreferrer">hello@tomaszkrupa.com</a>
         </div>
         <div>
-          <a href="/cv/Tomasz_Krupa_-_2025_CV.pdf" download="Tomasz_Krupa_-_2025_CV" className='underline text-2xl sm:text-3xl md:text-4xl' target="_blank" rel="noopener noreferrer">CV</a>
+            <a href="/Tomasz%20Krupa%20-%202025%20CV.pdf" download="Tomasz_Krupa_-_2025_CV" className='underline text-2xl sm:text-3xl md:text-4xl' target="_blank" rel="noopener noreferrer">CV</a>
         </div>
         <div>
           <a href="https://www.linkedin.com/in/tomaszkrupa1999" className="underline text-2xl sm:text-3xl md:text-4xl" target="_blank" rel="noopener noreferrer">LinkedIn</a>
