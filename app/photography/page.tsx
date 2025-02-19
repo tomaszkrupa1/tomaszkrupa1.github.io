@@ -34,15 +34,15 @@ export default function PhotographyPage() {
             </div>
 
             {selectedImage && (
-                <div 
+                <div
                     className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50"
                     onClick={() => setSelectedImage(null)}
                 >
                     <div className="relative">
-                        <img 
-                            src={selectedImage} 
-                            alt="Fullscreen" 
-                            className="max-w-[90vw] max-h-[90vh] object-contain " 
+                        <img
+                            src={selectedImage}
+                            alt="Fullscreen"
+                            className="max-w-[90vw] max-h-[90vh] object-contain "
                             onClick={(e) => e.stopPropagation()}
                         />
                     </div>

@@ -1,5 +1,5 @@
 export interface Project {
-    id: number;
+    id: string;
     title: string;
     imageSrc: string;
     image2?: string;
@@ -14,7 +14,7 @@ export interface Project {
 
 export const projects: Project[] = [
     {
-        id: 1,
+        id: "SociaLift",
         title: "SocialLift",
         imageSrc: "/images/C1.png",
         image2: "/images/C1.png",
@@ -27,7 +27,7 @@ export const projects: Project[] = [
         host: "HOST URL HERE",
     },
     {
-        id: 2,
+        id: "The_Emperor",
         title: "The Emperor",
         imageSrc: "/images/C1.png",
         info: "A Chrome extension for enhancing your browsing experience. This is ome text that will force the window to get even bigger when in a pretty narrow view",
@@ -35,16 +35,16 @@ export const projects: Project[] = [
         tags: ["Chrome Extension", "HTML", "CSS", "JavaScript"],
     },
     {
-        id: 3,
-        title: "Project 3",
+        id: "SeenIt",
+        title: "SeenIt",
         imageSrc: "/images/C1.png",
         info: "A project utilizing various APIs including NASA API.",
         info2: "Additional details and features of SocialLift go here.",
         tags: ["React", "Node.js", "Express", "MAP thingy API", "NASA API"],
     },
     {
-        id: 4,
-        title: "Project 4",
+        id: "Meteor_Map",
+        title: "Meteor Map",
         imageSrc: "/images/C1.png",
         info: "A web application built with Python and Flask.",
         info2: "Additional details and features of SocialLift go here.",
