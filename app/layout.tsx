@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   title: "Tomasz Krupa",
   description: "Tomasz Krupa - Tech, Art, Business.",
   icons: {
-    icon: "/favicon.ico",
+    icon: "/favicon.ico", 
   },
 };
 
