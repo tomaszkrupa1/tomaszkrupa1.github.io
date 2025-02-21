@@ -12,7 +12,7 @@ const MeteorMapPage: React.FC = () => {
 
     return (
         <div style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
-            <Link href="/code" className="text-black">
+            <Link href="/ideas" className="text-black">
   ← Back
 </Link>
             <h1>{project.title}</h1>

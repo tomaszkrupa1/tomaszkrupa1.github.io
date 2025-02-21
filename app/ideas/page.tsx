@@ -12,7 +12,7 @@ export default function CodePage() {
             className="grid grid-cols-1 sm:grid-cols-2 gap-4 items-stretch"
           >
             <div className="overflow-hidden rounded">
-              <Link href={`/code/${idea.id}`}>
+              <Link href={`/ideas/${idea.id}`}>
                 <img
                   src={idea.imageSrc}
                   alt={idea.title}

@@ -2,17 +2,17 @@ import Link from 'next/link';
 import React from 'react'
 import { ideas } from '../ideas'
 
-// Locate the SociaLift project by its id or slug.
-const SociaLiftPage: React.FC = () => {
-    const project = ideas.find((idea) => idea.id === 'SociaLift')
+// Locate the Digital_Spotify_Turntable project by its id or slug.
+const DigitalSpotifyTurntablePage: React.FC = () => {
+    const project = ideas.find((idea) => idea.id === 'Digital_Spotify_Turntable')
 
     if (!project) {
-        return <div>Project "SociaLift" not found.</div>
+        return <div>Project "Digital_Spotify_Turntable" not found.</div>
     }
 
     return (
         <div style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
-            <Link href="/code" className="text-black">
+            <Link href="/ideas" className="text-black">
   ← Back
 </Link>
             <h1>{project.title}</h1>
@@ -28,4 +28,4 @@ const SociaLiftPage: React.FC = () => {
     )
 }
 
-export default SociaLiftPage
+export default DigitalSpotifyTurntablePage

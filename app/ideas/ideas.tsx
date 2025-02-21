@@ -12,20 +12,21 @@ export interface Ideas {
     host?: string;
 }
 
-export const ideas: Ideas[] = [
+ export const ideas: Ideas[] = [
     {
-        id: "SociaLift",
-        title: "SocialLift",
+        id: "Digital_Spotify_Turntable",
+        title: "Digital Spotify Turntable",
         imageSrc: "/images/C1.png",
         image2: "/images/C1.png",
-        info: "A social media app built with React Native and Firebase.",
+        info: "A high definition OLED turntable audio device.",
         info2: "Additional details and features of SocialLift go here.",
         info3: "A social media app built with React Native and Firebase.",
         info4: "Additional details and features of SocialLift go here.",
         tags: ["React Native", "Firebase", "API"],
         git: "GITHUB URL HERE",
         host: "HOST URL HERE",
-    },
+    } /*,
+    
     {
         id: "The_Emperor",
         title: "The Emperor",
@@ -48,6 +49,11 @@ export const ideas: Ideas[] = [
         imageSrc: "/images/C1.png",
         info: "A web application built with Python and Flask.",
         info2: "Additional details and features of SocialLift go here.",
-        tags: ["Python", "Flask"],
+        tags: ["Python", "Flask"] 
+        ]; 
+        
     },
-];
+
+    */
+
+]
