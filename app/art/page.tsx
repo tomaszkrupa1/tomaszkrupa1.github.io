@@ -16,13 +16,16 @@ export default function ArtPage() {
         { src: "/images/A8.jpg", alt: "Photo 8" },
         { src: "/images/A9.jpg", alt: "Photo 9" },
         { src: "/images/A10.jpg", alt: "Photo 10" },
-    
+        { src: "/images/A11.jpg", alt: "Photo 11" },
+        { src: "/images/A12.jpg", alt: "Photo 12" },
+        { src: "/images/A13.jpg", alt: "Photo 13" },
+        { src: "/images/A14.jpg", alt: "Photo 14" },
     ];
 
     return (
         <div className="container mx-auto p-8">
-            <h1 className="text-3xl font-bold mb-4 text-black">Photography</h1>
-            <div className="columns-1 sm:columns-2 md:columns-3 lg:columns-4 gap-4">
+            <h1 className="text-3xl font-bold mb-4 text-black">Art</h1>
+            <div className="animate-fadeIn columns-1 sm:columns-2 md:columns-3 lg:columns-4 gap-4">
                 {images.map((image) => (
                     <img
                         key={image.src}

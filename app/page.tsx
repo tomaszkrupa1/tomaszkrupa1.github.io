@@ -46,7 +46,7 @@ export default function Home() {
       </h2>
       <h3 className="mt-16 mb-16 py-16 text-3xl sm:text-4xl md:text-5xl font-bold text-black md:max-w-[50%]">
         <div>
-          <a href="mailto:hello@tomaszkrupa.co.uk" className="underline text-2xl sm:text-3xl md:text-4xl" target="_blank" rel="noopener noreferrer">hello@tomaszkrupa.com</a>
+          <a href="mailto:hello@tomaszkrupa.co.uk" className="underline text-2xl sm:text-3xl md:text-4xl" target="_blank" rel="noopener noreferrer">hello@tomaszkrupa.co.uk</a>
         </div>
         <div>
             <a href="/Tomasz%20Krupa%20-%202025%20CV.pdf" download="Tomasz_Krupa_-_2025_CV" className='underline text-2xl sm:text-3xl md:text-4xl' target="_blank" rel="noopener noreferrer">CV</a>

@@ -16,7 +16,7 @@ export interface Ideas {
     {
         id: "Digital_Spotify_Turntable",
         title: "Digital Spotify Turntable",
-        imageSrc: "/images/C1.png",
+        imageSrc: "/images/C999.jpg",
         image2: "/images/C1.png",
         info: "A high definition OLED turntable audio device.",
         info2: "Additional details and features of SocialLift go here.",

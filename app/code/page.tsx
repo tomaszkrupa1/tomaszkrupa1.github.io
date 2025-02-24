@@ -3,7 +3,7 @@ import { projects } from './projects'; // Adjust the path as necessary
 
 export default function CodePage() {
   return (
-    <div className="container mx-auto p-8">
+    <div className="animate-fadeIn container mx-auto p-8">
       <h1 className="text-3xl font-bold mb-8 text-black">Coding Projects</h1>
       <div className="space-y-6">
         {projects.map((project) => (

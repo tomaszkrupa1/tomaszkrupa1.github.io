@@ -18,8 +18,8 @@ export default function GraffitiPage() {
 
     return (
         <div className="container mx-auto p-8">
-            <h1 className="text-3xl font-bold mb-4 text-black">Photography</h1>
-            <div className="columns-1 sm:columns-2 md:columns-3 lg:columns-4 gap-4">
+            <h1 className="text-3xl font-bold mb-4 text-black">Graffiti</h1>
+            <div className="animate-fadeIn columns-1 sm:columns-2 md:columns-3 lg:columns-4 gap-4">
                 {images.map((image) => (
                     <img
                         key={image.src}
