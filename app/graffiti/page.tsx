@@ -13,7 +13,7 @@ export default function GraffitiPage() {
         { src: "/images/G5.jpg", alt: "Photo 5" },
         { src: "/images/G6.jpg", alt: "Photo 6" },
         { src: "/images/G7.jpg", alt: "Photo 7" },
-        { src: "/images/G9.jpg", alt: "Photo 8" }
+        { src: "/images/G8.jpg", alt: "Photo 8" }
     
     ];
 
