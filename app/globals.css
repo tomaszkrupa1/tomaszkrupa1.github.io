@@ -213,3 +213,8 @@ nav {
     animation-delay: 0.9s;
   }
 }
+
+
+  .max-container-800 {
+    @apply mx-auto max-w-[800px];
+  }

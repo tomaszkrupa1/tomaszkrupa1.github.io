@@ -2,119 +2,74 @@ import Link from 'next/link';
 import React from 'react';
 import { projects } from '../projects';
 
-// SociaLiftPage component with enhanced styling.
-const SociaLiftPage: React.FC = () => {
+export default function SociaLiftPage() {
     const project = projects.find((proj) => proj.id === 'SociaLift');
-
     if (!project) {
-        return (
-            <div style={{ padding: '2rem', fontFamily: 'Poppins, sans-serif', fontWeight: 600, fontSize: '0.9rem' }}>
-                Project "SociaLift" not found.
-            </div>
-        );
+        return <div>Project not found</div>;
     }
 
     return (
-        <div
-            style={{
-                fontFamily: 'Poppins, sans-serif',
-                padding: '2rem',
-                maxWidth: '900px',
-                margin: '0 auto',
-                lineHeight: '1.6',
-                color: '#333',
-                fontSize: '0.9rem'
-            }}
-        >
-            <Link
-                href="/code"
-                style={{
-                    textDecoration: 'none',
-                    color: '#333',
-                    fontWeight: '600',
-                    marginBottom: '1rem',
-                    display: 'inline-block',
-                    fontSize: '0.9rem'
-                }}
-            >
-                &larr; Back
-            </Link>
-
-            {/* Top image */}
-            {project.imageSrc && (
-                <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
-                    <img
-                        src={project.imageSrc}
-                        alt={project.title}
-                        style={{ maxWidth: '100%', borderRadius: '8px' }}
-                    />
-                </div>
-            )}
-
-            {/* Title and subtitle */}
-            <h1 style={{ fontSize: '2rem', marginBottom: '0.5rem', fontWeight: 700 }}>
-                {project.title}
-            </h1>
-            {project.info && (
-                <h2 style={{ fontSize: '1.25rem', marginBottom: '1.5rem', fontWeight: 600 }}>
-                    {project.info}
-                </h2>
-            )}
-            {project.tags && (
-                <div style={{ marginBottom: '3rem' }}>
-                    {project.tags.map((tag, index) => (
-                        <span
-                            key={index}
-                            className='border border-gray-500 rounded-full px-3 py-1 text-sm mr-2 mb-2'
-                            
-                        >
-                            {tag}
-                        </span>
-                    ))}
-                </div>
-            )}
-            {/* Main project info */}
-            {project.info2 && (
-                <div style={{ marginBottom: '3rem' }}>
-                    <h3 style={{ fontSize: '1.5rem', marginBottom: '0.5rem', fontWeight: 700 }}>
-                        Why I built this project this way?
-                    </h3>
-                    <p style={{ fontSize: '1rem', fontWeight: 600 }}>{project.info2}</p>
-                </div>
-            )}
-
-            {/* Secondary image */}
-            {project.image2 && (
-                <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
-                    <img
-                        src={project.image2}
-                        alt={`${project.title} details`}
-                        style={{ maxWidth: '100%', borderRadius: '8px' }}
-                    />
-                </div>
-            )}
-
-            {/* More information */}
-            {project.info3 && (
-                <div style={{ marginBottom: '3rem' }}>
-                    <h3 style={{ fontSize: '1.5rem', marginBottom: '0.5rem', fontWeight: 700 }}>
-                        I gained confidence...
-                    </h3>
-                    <p style={{ fontSize: '1rem', fontWeight: 600 }}>{project.info3}</p>
-                </div>
-            )}
-
-            {/* Additional information */}
-            {project.info4 && (
-                <div style={{ marginBottom: '3rem' }}>
-                    <h3 style={{ fontSize: '1.5rem', marginBottom: '0.5rem', fontWeight: 700 }}>
-                        If we had more time...
-                    </h3>
-                    <p style={{ fontSize: '1rem', fontWeight: 600 }}>{project.info4}</p>
-                </div>
-            )}
+      <div
+      className="animate-fadeIn container mx-auto p-8 max-container-800"
+    
+      >
+      <Link href="/code">
+        <h1 className="text-3xl font-bold mb-8 text-black cursor-pointer">
+        Back
+        </h1>
+      </Link>
+      <div className="space-y-6">
+        <div key={project.id} className="flex flex-col gap-4">
+        <div className="overflow-hidden rounded w-full">
+          <img
+          src={project.imageSrc}
+          alt={project.title}
+          className="w-full h-full object-cover"
+          />
         </div>
-    );
-};
-
-export default SociaLiftPage;
+        <div className="w-full flex flex-col gap-2">
+          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-black">
+          {project.title}
+          </h2>
+          <p className="text-gray-700">{project.info}</p>
+          <div className="flex flex-wrap gap-2">
+          {project.tags.map((tag) => (
+            <span
+            key={tag}
+            className="border border-gray-500 rounded-full px-3 py-1 text-sm"
+            >
+            {tag}
+            </span>
+          ))}
+          </div>
+          <hr className="border-t mt-2 w-full" />
+        </div>
+        <div className="w-full">
+          <img
+          src={project.image2}
+          alt={project.title}
+          className="w-full h-full object-cover"
+          />
+        </div>
+        <div className="w-full flex flex-col gap-1">
+          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-black">
+          The challenge
+          </h2>
+          <p className="text-gray-700">{project.info2}</p>
+        </div>
+        <div className="w-full flex flex-col gap-1">
+          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-black">
+          I gained confidence...
+          </h2>
+          <p className="text-gray-700">{project.info3}</p>
+        </div>
+        <div className="w-full flex flex-col gap-1">
+          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-black">
+          If we had more time...
+          </h2>
+          <p className="text-gray-700">{project.info4}</p>
+        </div>
+        </div>
+      </div>
+      </div>
+    ) };
