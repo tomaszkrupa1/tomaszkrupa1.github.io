@@ -38,13 +38,16 @@ export default function Home() {
       <div>
         <img src="/images/1.jpg" alt="1" className="w-full h-auto mb-4" />
         <h2 className="mt-16 mb-16 py-16 text-3xl sm:text-4xl md:text-5xl font-bold text-black md:max-w-[50%]">
-          Hi, I'm Tomasz, a passionate developer with interests spanning code, art, and design. Welcome to my online space where creativity meets technology.
+          Hi, I'm Tomasz, a passionate developer with interests spanning code, visual arts, and design.
         </h2>
       </div>
       <h2 className="mt-16 mb-16 py-16 text-3xl sm:text-4xl md:text-5xl font-bold text-black md:max-w-[50%] ml-auto text-right">
-        I currently work for Fujitsu in a 1st line support role. I also do freelance design and development under <a href="https://iridesce.digital" className="underline" target="_blank" rel="noopener noreferrer">iridesceDigital</a>. Additionally, I am working on a new startup, an online designer clothing marketplace, <a href="https://highstreetmarketplace.com" className="underline" target="_blank" rel="noopener noreferrer">HIGHSTREET</a>.
+        I currently work for Fujitsu in a 1st line support role. I also do freelance design and development under <a href="https://iridesce.digital" className="underline" target="_blank" rel="noopener noreferrer">iridesceDigital</a>.
       </h2>
-      <h3 className="mt-16 mb-16 py-16 text-3xl sm:text-4xl md:text-5xl font-bold text-black md:max-w-[50%]">
+      <h2 className="mt-16 mb-16 py-16 text-3xl sm:text-4xl md:text-5xl font-bold text-black md:max-w-[50%]">
+      Check out my new startup, an online designer clothing marketplace, <a href="https://highstreetmarketplace.com" className="underline" target="_blank" rel="noopener noreferrer">HIGHSTREET.</a>
+        </h2>
+      <h3 className="mt-16 mb-16 py-16 text-3xl sm:text-4xl md:text-5xl font-bold text-black md:max-w-[50%] ml-auto text-right">
         <div>
           <a href="mailto:hello@tomaszkrupa.co.uk" className="underline text-2xl sm:text-3xl md:text-4xl" target="_blank" rel="noopener noreferrer">hello@tomaszkrupa.co.uk</a>
         </div>
@@ -53,6 +56,9 @@ export default function Home() {
         </div>
         <div>
           <a href="https://www.linkedin.com/in/tomaszkrupa1999" className="underline text-2xl sm:text-3xl md:text-4xl" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+        <div>
+          <a href="https://github.com/tomaszkrupa1" className="underline text-2xl sm:text-3xl md:text-4xl" target="_blank" rel="noopener noreferrer">Github</a>
         </div>
       </h3>
     </div>
