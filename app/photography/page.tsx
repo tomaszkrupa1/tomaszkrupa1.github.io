@@ -44,6 +44,7 @@ export default function PhotographyPage() {
         { src: "/images/P36.jpg", alt: "Photo 36" },
         { src: "/images/P37.jpg", alt: "Photo 37" },
         { src: "/images/P38.jpg", alt: "Photo 38" },
+        { src: "/images/P39.jpg", alt: "Photo 39" },
     ];
 
     return (

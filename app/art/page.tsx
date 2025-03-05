@@ -20,6 +20,9 @@ export default function ArtPage() {
         { src: "/images/A12.jpg", alt: "Photo 12" },
         { src: "/images/A13.jpg", alt: "Photo 13" },
         { src: "/images/A14.jpg", alt: "Photo 14" },
+        { src: "/images/A15.jpg", alt: "Photo 15" },
+        { src: "/images/A16.jpg", alt: "Photo 16" },
+        { src: "/images/A17.jpg", alt: "Photo 17" },
     ];
 
     return (
