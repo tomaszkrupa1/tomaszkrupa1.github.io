@@ -7,6 +7,16 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+  safelist: [
+    'fixed', 'top-0', 'left-0', 'right-0',
+    'relative',
+    'flex', 'justify-center', 'items-center',
+    'bg-white',
+    'transition-all', 'duration-300',
+    'z-30',
+    'text-xl', 'text-6xl'
+  ],
+  
   theme: {
     extend: {
       colors: {
